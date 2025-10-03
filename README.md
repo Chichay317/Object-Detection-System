@@ -16,6 +16,7 @@ How it Works
 1. The model is loaded with its frozen graph and configuration file
 2. Class labels are read from a text file (Labels.txt) corresponding to COCO classes
 3. For each input image or video frame:
+   
 a) Objects are detected with bounding boxes and confidence scores
 
 b) Bounding boxes are drawn around detected objects
